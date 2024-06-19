@@ -17,8 +17,8 @@ return(
     <>
         <nav className="navbar">
         <Link to = "/" className="navbar-logo">
-            NATURE
-       <Icons.FaTree />
+       (ZAPIRO)
+       
     </Link>
     <ul className="nav-items">
         {navItems.map(item => {
@@ -34,7 +34,7 @@ return(
                 )
 
             } 
-            if(item.title === "Products"){
+            if(item.title === "Products Gallery"){
                 return(
                     <li key = {item.id} className={item.cName}
                     onMouseEnter={()=> setDropdowns(true)}

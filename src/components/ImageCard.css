@@ -1,0 +1,12 @@
+.image-card {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: auto;
+  }
+  
+  .image-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  

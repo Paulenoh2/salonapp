@@ -18,7 +18,7 @@ export const navItems = [
    
 {id: 3,
     title: "Services",
-    path: "./services",
+
     cName: "nav-items",
   
 },
@@ -33,8 +33,8 @@ export const navItems = [
 
    {
     id: 5,
-    title:"Products",
-    path:"./products",
+    title:"Products Gallery",
+    
     cName: "nav-items",
    }
 
@@ -47,8 +47,8 @@ export const serviceDropdown = [
 
     {
         id: 1,
-        title:"Marketing",
-        path:"./marketing",
+        title:"Hair Cuts",
+        path:"./haircuts",
         cName: "submenu-item"
        },
 
@@ -56,22 +56,22 @@ export const serviceDropdown = [
 
     {
         id: 2,
-        title:"Consulting",
-        path:'./consulting',
+        title:"Nails Care",
+        path:'./nailscare',
         cName: "submenu-item"
        },
        
     
        {id: 3,
-        title:"Design",
-        path:'./design',
+        title:"Skin Care ",
+        path:'./skincare',
         cName: "submenu-item",
        },
        
        
     {id: 4,
-        title:"Development",
-        path:'./development',
+        title:"Spa Services",
+        path:"./spa-services",
         cName: "submenu-item",
        },
        
@@ -83,8 +83,8 @@ export const productsDrop = [
 
     {
         id: 1,
-        title:"Rice",
-        path:"./rice",
+        title:"Hairs Cut Gallery",
+        path:"./cuts-gallery",
         cName: "product-item"
        },
 
@@ -92,22 +92,18 @@ export const productsDrop = [
 
     {
         id: 2,
-        title:"Beans",
-        path:'./beans',
+        title:"Nails Gallery",
+        path:'./nails-gallery',
         cName: "product-item"
        },
        
     
-       {id: 3,
-        title:"Garri",
-        path:'./garri',
-        cName: "product-item",
-       },
+       
        
        
     {id: 4,
-        title:"Vergitable",
-        path:'./vergitable',
+        title:"Hair Style Gallery",
+        path:'./hairs-style',
         cName: "product-item",
        },
        

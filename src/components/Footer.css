@@ -1,0 +1,107 @@
+/* Footer Styles */
+
+footer {
+  background-color: black; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Padding at the top and bottom */
+  text-align: center; /* Centered text */
+  font-family: 'Arial', sans-serif; /* Font family */
+}
+
+.footer-container {
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Padding on the sides */
+}
+
+.footer-columns {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between columns */
+  flex-wrap: wrap; /* Wrap columns if necessary */
+}
+
+.footer-column {
+  flex: 1; /* Equal column width */
+  margin: 10px 20px; /* Margin around columns */
+}
+
+.footer-column h4 {
+  font-size: 18px; /* Heading font size */
+  margin-bottom: 10px; /* Space below the heading */
+  color: #fff; /* Heading color */
+}
+
+.footer-column ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.footer-column ul li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.footer-column ul li a {
+  color: #ccc; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-column ul li a:hover {
+  color: #fff; /* Link hover color */
+}
+
+.subscribe-form {
+  display: flex; /* Flexbox layout for the form */
+  flex-direction: column; /* Vertical alignment */
+  align-items: center; /* Center the form elements */
+}
+
+.subscribe-form input[type="email"] {
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 10px; /* Space below the input */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+  max-width: 300px; /* Maximum width */
+}
+
+.subscribe-form button {
+  padding: 10px 20px; /* Padding inside the button */
+  background-color: #ff6347; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.subscribe-form button:hover {
+  background-color: #ff4500; /* Darker background on hover */
+}
+
+.social-media {
+  margin-top: 20px; /* Space above social media icons */
+  color: blue
+}
+
+.social-media a {
+  color: #fff; /* Icon color */
+  margin: 0 10px; /* Space between icons */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+  color: #ccc; /* Icon hover color */
+}
+
+.footer-bottom {
+  margin-top: 20px; /* Space above bottom section */
+  border-top: 1px solid #444; /* Top border */
+  padding-top: 10px; /* Padding at the top */
+}
+
+.footer-bottom p {
+  margin: 0; /* Remove margin */
+  color: #ccc; /* Text color */
+  font-size: 14px; /* Text size */
+}

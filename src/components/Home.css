@@ -1,0 +1,96 @@
+/* Home.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homes-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(252, 247, 247);
+  
+}
+
+.homes-heading {
+  color:rgb(63, 62, 62);
+  font-family:'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  
+  
+  
+}
+
+.homes2-heading {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #444;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.homes-image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  max-height: 300px; /* Set a maximum height for the image */
+  width: 400px; /* Ensure the image retains its aspect ratio */
+  height: auto; /* Ensure the image retains its aspect ratio */
+  border-radius: 10px;
+}
+
+
+.content-section, .content2-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .content-section, .content2-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.home2-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.home2-image {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+p {
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+font: 1em sans-serif;
+color:rgb(61, 61, 61);
+
+}
+
+h1{
+  background-color: palevioletred;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(113, 173, 155);
+}
+
+h2{
+font-family: 'Courier New', Courier, monospace;
+color: green;
+
+}

@@ -7,8 +7,8 @@ function Button (){
 
 
 return(
-        <Link to = "signup" >
-         <button className="btn">Sign Up</button>
+        <Link to = "/contact" >
+         <button className="btn">CONTACTS</button>
         </Link>
 )
 

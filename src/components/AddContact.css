@@ -1,0 +1,50 @@
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list-contact {
+    display: block;
+    margin-bottom: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between image and form */
+}
+
+.contact-image {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
