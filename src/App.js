@@ -115,7 +115,7 @@ const hairsCuts = [images1,p1,p2,images3,images4,p3,p4,images5,p5,images6,p6,ima
               
         <Route path='/haircuts' element = {<HairCuts images1 = {images1} images3 = {images3} p11 ={p11}/>}/>
         <Route path='/nailscare' element={<Nails im2 = {im2} im11 = {im11}  h10 = {h10}/>} />
-        {/* <Route path='/skincare' element={<SkinCare p4 = {p4} p5 = {p5}  p6 = {p6}/>} /> */}
+        <Route path='/skincare' element={<SkinCare p4 = {p4} p5 = {p5}  p6 = {p6}/>} />
         <Route path='/spa-services' element = {<Spa p6 = {p6} p7 = {p7} p9 ={p9} />}/>
 
 
