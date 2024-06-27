@@ -1,107 +1,107 @@
 /* Footer Styles */
 
 footer {
-  background-color: black; /* Dark background color */
-  color: #fff; /* White text color */
-  padding: 20px 0; /* Padding at the top and bottom */
-  text-align: center; /* Centered text */
-  font-family: 'Arial', sans-serif; /* Font family */
+  background-color: black; 
+  color: #fff; 
+  padding: 20px 0; 
+  text-align: center;
+  font-family: 'Arial', sans-serif; 
 }
 
 .footer-container {
-  max-width: 1200px; /* Maximum width of the container */
-  margin: 0 auto; /* Center the container */
-  padding: 0 20px; /* Padding on the sides */
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 20px; 
 }
 
 .footer-columns {
-  display: flex; /* Flexbox layout */
-  justify-content: space-between; /* Space between columns */
-  flex-wrap: wrap; /* Wrap columns if necessary */
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 .footer-column {
-  flex: 1; /* Equal column width */
-  margin: 10px 20px; /* Margin around columns */
+  flex: 1; 
+  margin: 10px 20px; 
 }
 
 .footer-column h4 {
-  font-size: 18px; /* Heading font size */
-  margin-bottom: 10px; /* Space below the heading */
-  color: #fff; /* Heading color */
+  font-size: 18px; 
+  margin-bottom: 10px; 
+  color: #fff; 
 }
 
 .footer-column ul {
-  list-style: none; /* Remove bullet points */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .footer-column ul li {
-  margin-bottom: 10px; /* Space between list items */
+  margin-bottom: 10px; 
 }
 
 .footer-column ul li a {
-  color: #ccc; /* Link color */
-  text-decoration: none; /* Remove underline */
+  color: #ccc;
+  text-decoration: none; 
 }
 
 .footer-column ul li a:hover {
-  color: #fff; /* Link hover color */
+  color: #fff;
 }
 
 .subscribe-form {
-  display: flex; /* Flexbox layout for the form */
-  flex-direction: column; /* Vertical alignment */
-  align-items: center; /* Center the form elements */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .subscribe-form input[type="email"] {
-  padding: 10px; /* Padding inside the input */
-  margin-bottom: 10px; /* Space below the input */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  width: 100%; /* Full width */
-  max-width: 300px; /* Maximum width */
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  width: 100%; 
+  max-width: 300px; 
 }
 
 .subscribe-form button {
-  padding: 10px 20px; /* Padding inside the button */
-  background-color: #ff6347; /* Button background color */
-  color: #fff; /* Button text color */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
+  padding: 10px 20px; 
+  background-color: #ff6347; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
 }
 
 .subscribe-form button:hover {
-  background-color: #ff4500; /* Darker background on hover */
+  background-color: #ff4500; 
 }
 
 .social-media {
-  margin-top: 20px; /* Space above social media icons */
+  margin-top: 20px; 
   color: blue
 }
 
 .social-media a {
-  color: #fff; /* Icon color */
-  margin: 0 10px; /* Space between icons */
-  font-size: 24px; /* Icon size */
-  text-decoration: none; /* Remove underline */
+  color: #fff; 
+  margin: 0 10px; 
+  font-size: 24px; 
+  text-decoration: none; 
 }
 
 .social-media a:hover {
-  color: #ccc; /* Icon hover color */
+  color: #ccc; 
 }
 
 .footer-bottom {
-  margin-top: 20px; /* Space above bottom section */
-  border-top: 1px solid #444; /* Top border */
-  padding-top: 10px; /* Padding at the top */
+  margin-top: 20px; 
+  border-top: 1px solid #444; 
+  padding-top: 10px; 
 }
 
 .footer-bottom p {
-  margin: 0; /* Remove margin */
-  color: #ccc; /* Text color */
-  font-size: 14px; /* Text size */
+  margin: 0;
+  color: #ccc;
+  font-size: 14px; 
 }

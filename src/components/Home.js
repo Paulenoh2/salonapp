@@ -17,7 +17,7 @@ const Home = ({h12,im11, gallery, texts, interval = 3000 }) => {
 
   return (
     <div className="homes-container">
-      <div className='homes-heading'>  ZAPIRO BEAUTY AND CUSMETICS SALON </div>
+      <div className='homes-heading'>  ZAPIRO BEAUTY AND COSMETICS SALON </div>
       {gallery.map((image, index) => (
         <div
           key={index}
