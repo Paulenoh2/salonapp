@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./SkinCare.css";
+//import "./SkinCare.css";
 
 const SkinCare = ({ p4, p5, p6}) => {
   return (
