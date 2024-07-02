@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Spa.css";
 
 const Spa = ({ p7, p6, p9}) => {
   return (
     <div className="spas-container">
-      <div className="spas-heading"> ZAPIRO BEAUTY AND CUSMETICS SALON </div>
+      <div className="spas-heading"> ZAPIRO BEAUTY AND COSMETICS SALON </div>
       <div>
         <img src={p6} className="spas-image" alt="home" />
       </div>

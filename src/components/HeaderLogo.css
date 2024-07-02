@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgb(148, 123, 123);
+    color: white;
+    height: 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.facebook-icon {
+    color: #3b5998; /* Facebook blue */
+}
+
+.instagram-icon {
+    color: purple/* Instagram gradient */
+}
+
+.youtube-icon {
+    color: #ff0000; /* YouTube red */
+}
+
+.appointment-link {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color:red;
+    text-decoration: none;
+}
+/*
+.appointment-link:hover {
+    background-color: white;
+    color: #282c34;
+}
+*/

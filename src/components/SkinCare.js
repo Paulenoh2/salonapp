@@ -5,7 +5,7 @@ import "./SkinCare.css";
 const SkinCare = ({ p4, p5, p6}) => {
   return (
     <div className="skin-container">
-      <div className="skin-heading"> ZAPIRO BEAUTY AND CUSMETICS SALON </div>
+      <div className="skin-heading"> ZAPIRO BEAUTY AND COSMETICS SALON </div>
       <div>
         <img src={p4} className="skin-image" alt="home" />
       </div>

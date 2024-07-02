@@ -60,6 +60,7 @@ import Nails from './components/Nails';
 
 import AddContact from "./components/AddContact";
 import ContactList from './components/ContactList';
+import HeaderLogo from './components/HeaderLogo';
 
 import { v4 as uuidv4 } from 'uuid';
 import Footer from './components/Footer';
@@ -105,7 +106,9 @@ const hairsCuts = [images1,p1,p2,images3,images4,p3,p4,images5,p5,images6,p6,ima
 
   return (
     <div>
+      
         <Navbar/>
+        <HeaderLogo/>
         <Routes>
         
         <Route path = '/' element = {<Home gallery = {gallery} h12= {h12} im11 ={im11}interval={4000}  />}/>

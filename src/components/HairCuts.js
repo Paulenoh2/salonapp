@@ -5,7 +5,7 @@ import "./HairCuts.css";
 const HairCuts = ({ p11, images1,images3}) => {
   return (
     <div className="cuts-container">
-      <div className="about-heading"> ZAPIRO  BEAUTY AND CUSMETICS SALON </div>
+      <div className="about-heading"> ZAPIRO  BEAUTY AND COSMETICS SALON </div>
       <div>
         <img src={images3} className="cuts-image" alt="home" />
       </div>

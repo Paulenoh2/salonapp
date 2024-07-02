@@ -4,7 +4,7 @@ import "./Nails.css";
 const Nails = ({ im11, im2, h10}) => {
   return (
     <div className="nails-container">
-      <div className="nails-heading"> ZAPIRO BEAUTY AND CUSMETICS SALON </div>
+      <div className="nails-heading"> ZAPIRO BEAUTY AND COSMETICS SALON </div>
       <div>
         <img src={im11} className="nails-image" alt="home" />
       </div>

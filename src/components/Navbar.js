@@ -13,11 +13,12 @@ function Navbar (){
 
     const [dropdown,setDropdown] = useState(false);
     const [dropdowns,setDropdowns] = useState(false);
+
 return(
     <>
         <nav className="navbar">
         <Link to = "/" className="navbar-logo">
-       (ZAPIRO)
+       (SHALOM)
        
     </Link>
     <ul className="nav-items">
