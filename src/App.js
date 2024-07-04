@@ -56,6 +56,7 @@ import SkinCare from './components/SkinCare';
 import Spa from './components/Spa';
 import HairCuts from './components/HairCuts';
 import Nails from './components/Nails';
+import logo from './images/logo.png';
 
 
 import AddContact from "./components/AddContact";
@@ -107,7 +108,7 @@ const hairsCuts = [images1,p1,p2,images3,images4,p3,p4,images5,p5,images6,p6,ima
   return (
     <div>
       
-        <Navbar/>
+        <Navbar logo = {logo}/>
         <HeaderLogo/>
         <Routes>
         

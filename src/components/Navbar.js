@@ -9,7 +9,7 @@ import ProDropdown from './ProDropdown';
 import Button from "./Button";
 
 
-function Navbar (){
+function Navbar ({logo}){
 
     const [dropdown,setDropdown] = useState(false);
     const [dropdowns,setDropdowns] = useState(false);
@@ -18,7 +18,7 @@ return(
     <>
         <nav className="navbar">
         <Link to = "/" className="navbar-logo">
-       (SHALOM)
+       <img src= {logo} alt='logo' className='logo'/>
        
     </Link>
     <ul className="nav-items">
